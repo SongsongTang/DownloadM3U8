@@ -2,11 +2,6 @@ import requests
 
 def get_response(url):
     headers = {
-                "origin": "https://www.pornhub.com",
-                "referer": "https://www.pornhub.com/",
-                "sec-fetch-dest": "empty",
-                "sec-fetch-mode": "cors",
-                "sec-fetch-site": "cross-site",
                 "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36",
             }
     session = requests.Session()
